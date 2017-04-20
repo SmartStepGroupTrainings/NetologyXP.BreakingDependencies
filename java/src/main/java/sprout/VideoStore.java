@@ -15,7 +15,11 @@ public class VideoStore {
 
         for (int i = 0; i < allMovies.size(); i++) {
             Movie currentMovie = allMovies.get(i);
+
+            // some logic here
+
             availableMovies.add(new Movie(currentMovie.getTitle(), currentMovie.getRate()));
+
             //
         }
 
