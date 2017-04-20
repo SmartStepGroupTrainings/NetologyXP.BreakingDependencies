@@ -9,7 +9,7 @@ public class Employee {
         this.hourlyPayRateUsd = 35;
     }
 
-    private void pay(List<TimeEntry> timeEntries, PaymentService paymentService) {
+    public void pay(List<TimeEntry> timeEntries, PaymentService paymentService) {
         Money totalAmount = new Money();
 
         for (int i = 0; i < timeEntries.size(); i++) {
@@ -21,10 +21,6 @@ public class Employee {
     }
 
 
-
-
-
-
 //    public void pay(List<TimeEntry> timeEntries, PaymentService paymentService) {
 //        this.logPayment();
 //
@@ -32,8 +28,4 @@ public class Employee {
 //
 //        //
 //    }
-
-    private void logPayment() {
-
-    }
 }
