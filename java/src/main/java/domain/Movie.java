@@ -1,9 +1,6 @@
-package sprout;
+package domain;
 
-/**
- * Created by dpavlov on 20.04.17.
- */
-class Movie {
+public class Movie {
     private String title;
     private int rate;
 

@@ -1,5 +1,8 @@
 package sprout;
 
+import domain.Customer;
+import domain.Movie;
+
 import java.util.ArrayList;
 import java.util.List;
 
